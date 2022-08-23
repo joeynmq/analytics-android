@@ -36,7 +36,8 @@ import io.github.inflationx.viewpump.ViewPump
 
 class SampleApp : Application() {
 
-    private val ANALYTICS_WRITE_KEY: String = "your write key"
+    // https://app.segment.com/segment-joey-ng/sources/android/overview
+    private val ANALYTICS_WRITE_KEY: String = "YSglowRTCTB56g5Bdt96oiHp7yZUH7qE"
     override fun onCreate() {
         super.onCreate()
 
